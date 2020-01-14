@@ -21,6 +21,10 @@ footer a {
 }
 h1 {
   padding: 2em;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: "Playfair Display", serif;
 }
 nav {
   text-align: left;

@@ -1,4 +1,5 @@
 body {
+  background-color: aqua;
   max-width: 800px;
   margin: auto;
 }
@@ -9,9 +10,7 @@ footer {
 }
 img {
   box-shadow: 10px 5px 5px 1px black;
-  float: right;
-  margin-right: 15px;
-  margin-top: -170px;
+       
 }
 h1,
 footer,
@@ -20,8 +19,11 @@ footer a {
   color: antiquewhite;
 }
 h1 {
-  padding: 2em;
+  padding: 1.5em;
   font-family: "Poppins", sans-serif;
+}
+h2{
+  font-size: 1em;
 }
 body {
   font-family: "Playfair Display", serif;

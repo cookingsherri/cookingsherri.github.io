@@ -43,11 +43,11 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 header h1{
-  margin-block-start: 0;
+  margin-top: 0em;
 }
 header h2{
   margin-top: -15px;
-  margin-block-end: 0;
+  margin-bottom: 0em;
 }
 
 a{
@@ -60,7 +60,7 @@ a:hover{
   background-color: #364156;
   color: #CDCDCD;
   text-align: center;
-  margin-block-start: 0em;
+  margin-top: 0em;
   margin-left: -20px;
     margin-right: -20px;
     padding: 5px;

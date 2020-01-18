@@ -1,18 +1,19 @@
 body {
-  background-color: aqua;
   max-width: 800px;
   margin: auto;
+  text-align: center;
 }
 header,
-main,
 footer {
   text-align: center;
 }
+nav {
+  text-align: left;
+}
 img {
   box-shadow: 10px 5px 5px 1px black;
-       
 }
-h1,
+header,
 footer,
 footer a {
   border-radius: 15px;
@@ -22,15 +23,13 @@ h1 {
   padding: 1.5em;
   font-family: "Poppins", sans-serif;
 }
-h2{
+h2 {
   font-size: 1em;
 }
 body {
   font-family: "Playfair Display", serif;
 }
-nav {
-  text-align: left;
-}
+
 hr {
   display: block;
   margin-block-start: 0.5em;
@@ -41,7 +40,7 @@ hr {
   border-top-width: 2px;
 }
 
-h1,
+header,
 footer {
   background-color: rgb(135, 94, 173);
 }

@@ -3,6 +3,7 @@
         padding-top: 28px;
     }
     img{
-        max-width: 680px;
+       min-width: 670px;
+       
     }
 }

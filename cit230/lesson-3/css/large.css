@@ -2,7 +2,7 @@
     h1{
         padding-top: 80px;
     }
-    img{
-        max-width: 800px;
+    section img{
+       min-width: 750px;
     }
 }

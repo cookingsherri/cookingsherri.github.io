@@ -1,0 +1,46 @@
+body{
+
+    margin: 20px;
+    background: #F2F2F2;
+    border: 3px solid #ffffff;
+    padding: 20px;
+    
+}
+
+header img{
+    max-width: 85px;
+    padding: 8px;
+    float: left;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Poppins', sans-serif;
+    color: #590232;
+    margin: 20px 0 0;
+    }
+p{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+ul{
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+section img{
+  max-width: 236px;
+}
+
+footer {
+  padding: 0.25em;
+  text-align: center;
+    color: #F2F2F2;
+    background-color: #63A633;
+    border-radius: 15px;
+    padding: 0 25px;
+}
+footer ul {
+  list-style: none;
+  text-align: center;
+}
+#lastupdate {
+  color: #f2f2f2;
+}

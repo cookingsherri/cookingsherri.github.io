@@ -1,0 +1,20 @@
+@media only screen and (min-width: 32.5em) {
+    main, footer{
+        max-width: 800px;
+        margin: auto;
+    }
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+}

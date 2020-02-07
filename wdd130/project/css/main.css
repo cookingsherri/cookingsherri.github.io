@@ -6,7 +6,7 @@ html {
     font-size: 16px;
 	background-color: #FDFFFC;
 	padding: 20px;
-	margin:60px;
+	margin:60px auto;
   font-size: 16px;
   max-width: 960px;
 }

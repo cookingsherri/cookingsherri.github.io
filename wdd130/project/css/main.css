@@ -1,26 +1,59 @@
-body {
+html {
+    background-color: #011627;
+}
+    body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
-	background-color: #bbb;
-	padding: 0;
-	margin: 20px;
+	background-color: #FDFFFC;
+	padding: 20px;
+	margin:60px;
 	font-size: 16px;
 }
 
-header {
-	background-color: #fff;
+header, footer {
+	background-color: #FDFFFC;
 	padding: 5px 0;
 	display: flex;
 	align-items:center;
     justify-content:center;
-    border: navy solid 2px;
+    color: #011627
 }
-
+footer {
+    background-color: #41EAD4;
+    color: #FDFFFC;
+}
 header img {
 	width: 125px;
     height: auto;
-    margin-right: 400px;
+    margin-right: 20px;
 }
+nav {
+    background-color:#41EAD4;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  nav > ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+  }
+  nav a {
+    padding: 18px;
+    min-width: 70px;
+  }
+  nav a:link,
+  nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: #FF9F1C;
+    background-color: #FDFFFC;
+  }
 
 .headings {
 	display: flex;
@@ -29,15 +62,18 @@ header img {
 
 .heading h1 {
 	font-size: 2rem;
-	color: navy;
+	color: #41EAD4;
     margin: 0;
 }
 
 .motto {
 	font-style: italic;
-	color: forestgreen;
+	color: #FF9F1C;
 	font-size: 1rem;
 	letter-spacing: 1.5pt;
+}
+h2 {
+    color: #F71735;
 }
 p {
     line-height: 20px;

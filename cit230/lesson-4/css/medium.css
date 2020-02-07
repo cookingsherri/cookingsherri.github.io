@@ -10,7 +10,7 @@
 		display: block; 
 		flex: 1 1 100%;
 	}
-	.navigation li a {
+	.navigation a {
 		text-align: center;
 	}
 	

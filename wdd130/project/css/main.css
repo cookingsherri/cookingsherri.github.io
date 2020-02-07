@@ -73,6 +73,9 @@ nav {
 	font-size: 1rem;
 	letter-spacing: 1.5pt;
 }
+.social {
+    padding-left: 40px;
+}
 h2 {
     color: #F71735;
 }

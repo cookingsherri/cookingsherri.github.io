@@ -78,6 +78,9 @@ div a:hover {
   text-decoration: underline;
   background-color: #f2f2f2;
 }
+.hero h3 {
+  margin: 0;
+}
 
 p {
   font-family: "Playfair Display", serif;

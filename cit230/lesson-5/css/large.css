@@ -1,9 +1,6 @@
 @media only screen and (min-width: 60em){
-    main div{
-        background-color: #f2f2f2;
-        border: 1px solid #ffffff;
-    }
-    div a:hover{
-        background-color: #ffffff;
+    
+    .hero {
+        bottom: 115px;
     }
 }

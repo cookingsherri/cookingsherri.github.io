@@ -53,35 +53,21 @@ body {
   .navigation a:hover {
     text-decoration: underline;
   }
-  
+  .active {
+  border: #f2f2f2 solid 2px;  
+  }
   .responsive,
   .responsive li {
     display: block;
   }
-  
   #motto {
     background-color: #63a633;
     border: none;
   }
-  div {
-    background-color: #ffffff;
-    color: #0d0d0d;
-    border: 1px solid #f2f2f2;
-  }
-  div a {
-    color: #0d0d0d;
-    text-decoration: none;
-    display: block;
-    padding: 20px;
-  }
-  div a:hover {
-    text-decoration: underline;
-    background-color: #f2f2f2;
-  }
-  
-  p {
+  p, .contact {
     font-family: "Playfair Display", serif;
-    margin: 0;
+    margin: 15px 0;
+    font-style: unset;
   }
   ul {
     font-family: "Playfair Display", serif;
@@ -91,6 +77,39 @@ body {
     max-width: 250px;
     margin: 20px;
   }
+  .hero {
+    position: absolute;
+    max-width: 177px;
+    margin: 10px;
+    padding: 15px;
+    opacity: .8;
+    background-color: #63A633;
+    bottom: -40px;
+}
+.hero h3 {
+  margin: 0;
+}
+.forecast{
+  display: none;
+}
+.forecast h2 {
+  text-align: center;
+  margin: 20px;
+}
+aarticle {
+  margin-top: 70px;
+  padding: 40px;
+  border: #ffffff solid;
+}
+
+article img {
+  float: right;
+  max-width: 200px;
+  margin: 20px;
+}
+.contact img {
+  max-width: 300px;
+}
   
   header,
   footer {
@@ -112,6 +131,18 @@ body {
   }
   .headings h1 {
     margin-top: 0;
+  }
+  .wrapper img {
+    max-width: 800px;
+    height: auto;
+    width: 100%;
+    
+}
+
+  .wrapper{
+    margin: auto;
+    max-width: 100%;
+    position: relative;
   }
   footer ul {
     list-style: none;

@@ -69,6 +69,18 @@ body {
     margin: 15px 0;
     font-style: unset;
   }
+  .contact {
+    display: flex;
+    justify-content: center;
+   
+  }
+  .contact img {
+    justify-content: flex-start;
+  }
+  .contact address {
+   margin: 10px;
+    align-self: center;
+  }
   ul {
     font-family: "Playfair Display", serif;
     margin: 0;

@@ -1,4 +1,4 @@
-function showBanner(){
+function displayBanner(){
 	let date = new Date();
 	let day = date.getDay();
 	if(day==5){

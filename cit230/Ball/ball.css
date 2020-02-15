@@ -1,0 +1,14 @@
+.ball {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: blue;
+  transition: background-color,  2s ease 1s;
+  /*-webkit-transform: background-color,  2s ease 1s;*/
+}
+.ball:hover {
+  background-color: green;
+  margin-top: 100px;
+  transform: rotate(360deg);
+  padding: 20px;
+}

@@ -77,7 +77,7 @@ nav a:hover {
 
 .motto {
   font-style: italic;
-  color: #D9A84E;
+  color: #011627;
   font-size: 1rem;
   letter-spacing: 1.5pt;
 }
@@ -140,7 +140,7 @@ p {
     box-shadow: 5px 5px 5px #999;
 }
 .reserveNow a{
-  color: #F2F2F2;
+  color: #011627;
   text-decoration: none;
 }
 .reserveNow:hover, .reserveNow a:hover {

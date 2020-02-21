@@ -1,0 +1,5 @@
+@media only screen and (min-width: 60em){
+  img:hover {
+      box-shadow: 10px 10px 30px 2px #000000;
+  } 
+}

@@ -1,0 +1,37 @@
+@media only screen and (min-width: 32.5em) {
+    main, footer{
+        max-width: 950px;
+        margin: auto;
+    }
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+	
+}.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.flex div:last-child {
+	border-right: 1px solid #333;
+}
+
+
+
+.flex div img, table img {
+	border-radius: 100px;
+	padding: 5px;
+}
+

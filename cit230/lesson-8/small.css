@@ -3,9 +3,10 @@ table {
     margin-right: auto;
     text-align: center;
     box-shadow: 10px 10px 30px 2px #000000;
+    font-family: 'Ubuntu', sans-serif;
 }
 table, th, td {
-font-family: 'Ubuntu', sans-serif;
+
 border: 1px solid darkgray;
 border-collapse: collapse;
 }

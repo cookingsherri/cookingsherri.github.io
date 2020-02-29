@@ -90,6 +90,10 @@ ul {
   padding-top: 20px;
   justify-content: center;
 }
+.ty {
+  text-align: center;
+  padding: 10px;
+}
 /*------------FORM------------*/
 
 form {

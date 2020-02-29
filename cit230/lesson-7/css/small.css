@@ -107,7 +107,7 @@ form fieldset {
   border-radius: 10px;
 }
 form legend {
-  color: #63a633;
+  color: #590232;
   margin: 0 1rem;
   padding: 0 0.5rem;
 }
@@ -116,7 +116,7 @@ form div,
 form label {
   display: block;
   padding-top: 1rem;
-  color: #590232;
+  color: black;
   font-size: 0.8rem;
 }
 form label.top input,

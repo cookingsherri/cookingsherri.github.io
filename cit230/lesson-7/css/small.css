@@ -91,14 +91,14 @@ body {
     justify-content: center;
   }
 /*------------FORM------------*/
-  .flexly {
-    display: inline-block;
-    align-items: center;
-    
-  }
   
-  #ratingvalue {
-    margin: 0 15px;
+  
+  
+  form {
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    
   }
   form fieldset {
     margin: 2rem 0;
@@ -116,8 +116,8 @@ form label.top, form div, form label{
     color: #590232;
     font-size: .8rem;
 }
-form label.top input, form label.top select, form label input {
-    -webkit-appearance: none;
+form label.top input, form label.top select, form label input:not([type=radio]), form textarea  {
+
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
@@ -150,12 +150,15 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: #63a633 solid 6px;
 }
-form {
-  max-width: 50%;
-  margin-right: auto;
-  margin-left: auto;
+.flexly {
+  display: flex;
+  align-items: center;
   
 }
+#ratingvalue {
+  margin: 0 15px;
+}
+
 /*---------------HEADER, FOOTER----------------*/
   
   header,

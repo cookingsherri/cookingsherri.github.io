@@ -132,7 +132,9 @@ form textarea {
   width: 100%;
   max-width: 20rem;
   background-color: rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
+
 form label.sbs {
   display: block;
   padding: 0.75rem 0;

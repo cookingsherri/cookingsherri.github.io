@@ -56,20 +56,20 @@
         <fieldset>
           <legend>Weather Garden Reporter</legend>
           <label class="top"
-            >First Name*<input type="text" name="fname" pattern="[A-Za-z]" required
+            >First Name*<input type="text" name="fname" pattern="[A-Za-z]{2,}" required
           /></label>
           <label class="top"
-            >Last Name*<input type="text" name="lname" pattern="[A-Za-z]" required
+            >Last Name*<input type="text" name="lname" pattern="[A-Za-z]{}" required
           /></label>
           <label class="top"
-            >Phone<input type="tel" name="phone" placeholder="1235551234" pattern="[0-9][10}"
+            >Phone<input type="tel" name="phone" placeholder="1235551234"
           /></label>
           <label class="top"
             >Email*<input
               type="email"
               name="email"
               placeholder="username@email.com"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+  
               required
           /></label>
           <label class="top"
@@ -79,7 +79,7 @@
               type="text"
               maxlength="5"
               size="6"
-              pattern="[0-9]{6}"
+              required
           /></label>
         </fieldset>
         <fieldset>
@@ -114,7 +114,7 @@
             <span id="ratingvalue">5</span>
           </label>
           <datalist id="tickmarks">
-            <option value="0"> </option>
+            
             <option value="1"> </option>
             <option value="2"> </option>
             <option value="3"> </option>
@@ -130,7 +130,7 @@
           <label class="top"
             >Storm Region
             <select name="region">
-              <option value="disabled">Select Region &#9662;</option>
+              <option disabled >Select Region &#9662;</option>
               <option value="preston">Preston</option>
               <option value="sodasprings">Soda Springs</option>
               <option value="fishhaven">Fish Haven</option>

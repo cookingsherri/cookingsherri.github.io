@@ -33,3 +33,10 @@ h2 {
 p, h1, h2 {
     font-family: 'Merriweather', serif;
 }
+footer {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    background-color: #3F5666;
+    margin-top: 20px;
+}

@@ -201,6 +201,82 @@ p {
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
 }
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.faq-questions {
+  grid-column: 1/2;
+  
+}
+.faq-questions h2{
+  box-shadow: none;
+  border: none;
+}
+.faq-questions a:link {
+  color:#011627;
+  text-decoration: none;
+  font-style: italic;
+}
+.faq-questions a:visited {
+  color: #D9A84E;
+  font-style: normal;
+}
+.faq-questions a:hover {
+font-style: normal;
+}
+.faq-answers {
+  grid-column: 2/4;
+}
+.recent-happenings {
+  text-align: center;
+}
+.blogpost {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 288px);
+  grid-gap: 10px;
+}
+.blogpost a {
+  text-decoration: none;
+  text-align: center;
+  color: #011627;
+}
+.blogpost a:visited {
+  color: #D9A84E;
+}
+.blogpost a:hover {
+  color: #8C1C1C
+}
+.blogpost img {
+  max-width: 288px;
+}
+.colorado-wide {
+  position: relative;
+}
+.show-more {
+  position: absolute;
+  background-color: #D9A84E;
+    color: #F2F2F2;
+    border-style: groove;
+    border-right-color: #999;
+    border-left-color: #F2F2F2;
+    border-top-color: #F2F2F2;
+    border-bottom-color: #999;
+    position: absolute;
+    top: 95px;
+    left: 375px;
+    padding: 0 10px;
+    box-shadow: 5px 5px 5px #999;
+}
+.show-more a {
+  text-decoration: none;
+  color: #011627;
+}
+.blogpost img, .colorado-wide img {
+  box-shadow: 5px 5px 5px #999;
+}
+
 
 @media screen and (max-width: 550px) {
   .home-grid {

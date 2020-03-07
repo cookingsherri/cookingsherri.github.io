@@ -1,0 +1,95 @@
+
+:root {
+  --primary-color: #F2F2F2;
+  --secondary-color: #D9D5D2;
+  --accent1-color: #73605A;
+  --accent2-color: #545928;
+  --heading-font: 'EB Garamond', serif;
+  --paragraph-font: 'Courier Prime', monospace;
+}
+html {
+  background-color: #D9D5D2;
+}
+body {
+  max-width: 860px;
+  margin: 0 auto;
+  background-color: #F2F2F2;
+  padding: 1em;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'EB Garamond', serif;;
+  color: #011627;
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: #011627;
+  background-color: ;
+}
+header > h1 {
+  color: ;
+}
+p {
+    font-family: 'Courier Prime', monospace;
+  color: ;
+  padding: 1em;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td {
+  width: 25%;
+  height: 3em;
+}
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2 {
+  background-color: var(--accent2-color);
+}
+nav {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Courier Prime', monospace;
+}
+nav ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+}
+nav a {
+  padding: 1em;
+  min-width: 70px;
+  display: block;
+}
+nav a:link,
+nav a:visited {
+  color: #011627;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #545928;
+  font-weight: 200;
+  
+}

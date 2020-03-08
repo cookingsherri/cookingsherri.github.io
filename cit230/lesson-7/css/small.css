@@ -180,6 +180,10 @@ article div {
   grid-template-columns: 1fr 2fr;
   grid-gap: 10px;
 }
+.white {
+  background-color: #ffffff;
+  padding-left: 15px;
+}
 
 
 /*---------------HEADER, FOOTER----------------*/

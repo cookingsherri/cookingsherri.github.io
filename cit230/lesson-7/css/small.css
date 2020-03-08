@@ -175,6 +175,12 @@ form label.top input:required:valid {
 .noborder {
   border: none;
 }
+article div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+
 
 /*---------------HEADER, FOOTER----------------*/
 

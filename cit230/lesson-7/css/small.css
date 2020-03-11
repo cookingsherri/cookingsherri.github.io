@@ -1,6 +1,9 @@
 body {
   background: #f2f2f2;
 }
+main {
+  text-align: center;
+}
 header img {
   max-width: 60px;
   border-radius: 15px;
@@ -175,15 +178,37 @@ form label.top input:required:valid {
 .noborder {
   border: none;
 }
-article div {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 10px;
-}
 .white {
-  background-color: #ffffff;
-  padding-left: 15px;
+  display: block;
+  background-color: white;
 }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 10px;
+  padding-top: 20px;
+  justify-content: center;
+  text-align: center;
+  
+}
+.cards section {
+  background-color: white;
+
+}
+.cards h2 {
+  padding-bottom: 0;
+  margin: 0;
+}
+.cards h3 {
+  padding: 0;
+  margin: 0;
+
+}
+.cards p {
+  margin: 0;
+
+}
+
 
 
 /*---------------HEADER, FOOTER----------------*/

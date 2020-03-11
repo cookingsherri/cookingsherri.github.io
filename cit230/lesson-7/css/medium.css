@@ -18,7 +18,7 @@
 		display: none;
 	}
 	
-}.flex {
+.flex {
 	display: flex;
 	flex-direction: row;
 }
@@ -29,9 +29,31 @@
 }
 
 
-
 .flex div img, table img {
 	border-radius: 100px;
 	padding: 5px;
 }
+article {
+	background-color: white;
+}
+.cards img {
+	width: 100%;
+	height: 300px;
+}
+.cards {
+	display: flex;
+	flex-direction: column;
+}
+.cards section {
+	
+	display: flex;
+	
+}
+.cards div {
+width: 50%;
+}
+.cards section:nth-child(2) {
+	flex-direction: row-reverse;
+}
 
+}

@@ -4,5 +4,32 @@
   } 
   form label.sbs {
     padding: .4rem 0;
+  }
+.white {
+  background-color: #ffffff;
+  padding-left: 15px;
 }
+article div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-gap: 10px;
+  padding-top: 20px;
+  justify-content: center;
+  text-align: center;
+  
+}
+.cards section {
+  display: grid;
+  
+  
+}
+.cards div {
+  width: 100%;
+}
+
 }

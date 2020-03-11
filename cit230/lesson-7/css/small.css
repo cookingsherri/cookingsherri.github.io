@@ -3,6 +3,7 @@ body {
 }
 main {
   text-align: center;
+  margin: auto;
 }
 header img {
   max-width: 60px;
@@ -207,6 +208,9 @@ form label.top input:required:valid {
 .cards p {
   margin: 0;
 
+}
+.cards img {
+  max-width: 350px;
 }
 
 

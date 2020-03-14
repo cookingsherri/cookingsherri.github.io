@@ -45,23 +45,23 @@
       <ul class="navigation">
         <li><a class="ham" href="#">&#9776;&nbsp;&nbsp;Main</a></li>
         <li><a href="../lesson-9/index.html">Home</a></li>
-        <li><a href="preston-6.html">Preston</a></li>
+        <li><a href="preston-6.html" class="active">Preston</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
-        <li><a href="../lesson-8/stormcenter.html" class="active">Storm Center</a></li>
+        <li><a href="../lesson-8/stormcenter.html">Storm Center</a></li>
         <li><a href="../lesson-7/gallery-7.html">Gallery</a></li>
       </ul>
     </nav>
     <main>
       <div class="wrapper">
         <picture>
-          <source srcset="images/cit230_image_1000.jpg" media="(min-width:1000px)"/>
+          <source srcset="../images/hero-garden-1000.jpg" media="(min-width:1000px)"/>
           <source
-            srcset="images/cit230_image_659.jpg"
+            srcset="../images/hero-garden-600.jpg"
             media="(min-width: 600px)"
 />
           <img
-            src="images/cit230_image_500.jpg"
+            src="../images/hero-garden-500.jpg"
             alt="sunny garden with tools and boots"
           />
         </picture>
@@ -69,24 +69,24 @@
           <h2>Weather Summary</h2>
           <table>
             <tr>
-              <td>Currently:</td>
-              <td>36°F</td>
+              <td >Currently:</td>
+              <td id="current"></td>
             </tr>
             <tr>
               <td>High:</td>
-              <td> <span id="highTemp">47</span> °F</td>
+              <td> <span id="highTemp"></span> °F</td>
             </tr>
             <tr>
               <td>Wind Chill:</td>
               <td> <span id="windChill"></span> °F</td>
             </tr>
             <tr>
-              <td>Humidity:</td>
-              <td>58%</td>
+              <td >Humidity:</td>
+              <td id="humidity"></td>
             </tr>
             <tr>
               <td>Wind Speed:</td>
-              <td> <span id="windSpeed">15</span> mph</td>
+              <td> <span id="windSpeed"></span> mph</td>
             </tr>
           </table>
         </div>
@@ -170,7 +170,8 @@
       </p>
       <script src="js/date.js"></script>
       <script src="js/bannerad.js"></script>
-      <script src="js/windchill.js"></script>
+      <script src="js/forecast.js"></script>
+      
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>

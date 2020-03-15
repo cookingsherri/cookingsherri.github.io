@@ -118,7 +118,7 @@ body {
   .forecast {
     display: none;
   }
-  .forecast h2 {
+  .forecast h2, h3 {
     text-align: center;
     margin: 20px;
   }

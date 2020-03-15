@@ -1,12 +1,5 @@
 
-:root {
-  --primary-color: #F2F2F2;
-  --secondary-color: #D9D5D2;
-  --accent1-color: #73605A;
-  --accent2-color: #545928;
-  --heading-font: 'EB Garamond', serif;
-  --paragraph-font: 'Courier Prime', monospace;
-}
+
 html {
   background-color: #D9D5D2;
   background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
@@ -33,14 +26,12 @@ header {
   padding: 1em;
   text-align: center;
   color: #011627;
-  background-color: ;
+ 
 }
-header > h1 {
-  color: ;
-}
+
 p {
     font-family: 'Courier Prime', monospace;
-  color: ;
+  
   padding: 1em;
 }
 .colors {
@@ -56,18 +47,7 @@ p {
   width: 25%;
   height: 3em;
 }
-.primary {
-  background-color: var(--primary-color);
-}
-.secondary {
-  background-color: var(--secondary-color);
-}
-.accent1 {
-  background-color: var(--accent1-color);
-}
-.accent2 {
-  background-color: var(--accent2-color);
-}
+
 nav {
   text-align: center;
   font-size: 1.2em;

@@ -94,3 +94,12 @@ nav a:hover {
   font-weight: 200;
   
 }
+footer {
+  background-color: #73605A;
+  text-align: center;
+  padding: 10px;
+}
+footer p {
+  padding: 0;
+  margin: 5px 0px;
+}

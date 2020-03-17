@@ -1,3 +1,35 @@
 @media only screen and (min-width: 60em){
-   
+  img:hover {
+      box-shadow: 10px 10px 30px 2px #000000;
+  } 
+  form label.sbs {
+    padding: .4rem 0;
+  }
+.white {
+  background-color: #ffffff;
+  padding-left: 15px;
+}
+article div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 10px;
+  padding-top: 20px;
+  justify-content: center;
+  text-align: center;
+  
+}
+.cards section {
+  display: grid;
+  
+  
+}
+.cards div {
+  width: 100%;
+}
+
 }

@@ -24,11 +24,12 @@
 		margin-top: 70px;
 		display: block;
 	}
-	
-.flex {
+
+}.flex {
 	display: flex;
 	flex-direction: row;
 }
+
 .col {
 	flex: 1 1 100%;
 	border-top: 1px solid #333;
@@ -42,6 +43,7 @@
 .flex div:last-child {
 	border-right: 1px solid #333;
 }
+
 .day{
 	display: block;
 	padding: 5px;
@@ -55,16 +57,13 @@
 	border-radius: 100px;
 	padding: 5px;
 }
+
 .data {
 	display: block;
 	padding: 0 5px 5px;
 }
-article {
-	background-color: white;
-}
 .cards img {
 	width: 100%;
-	
 }
 
 .cards section {
@@ -79,4 +78,4 @@ width: 50%;
 	flex-direction: row-reverse;
 }
 
-}
+

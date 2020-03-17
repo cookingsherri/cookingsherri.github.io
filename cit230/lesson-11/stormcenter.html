@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Garden</title>
+    <meta
+      name="description"
+      content="Guide to year round gardening for every season."
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display%7cPoppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/cit230/lesson-4/weather-garden_favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="../lesson-7/css/small.css" />
+    <link rel="stylesheet" href="../lesson-7/css/medium.css" />
+    <link rel="stylesheet" href="../lesson-7/css/large.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="../images/rsz_wind-energy-1293775_1280.png"
+        alt="Weather Garden Logo"
+      />
+      <section class="headings">
+        <h1>Weather Garden</h1>
+
+        <div id="motto">When, Where and What&nbsp;to&nbsp;Plant</div>
+      </section>
+    </header>
+
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham" href="#">&#9776;&nbsp;&nbsp;Main</a></li>
+        <li><a href="../lesson-9/index.html">Home</a></li>
+        <li><a href="../lesson-6/preston-6.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+        <li><a href="../lesson-7/gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2 class="center">Storm Reporter</h2>
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Weather Garden Reporter</legend>
+          <label class="top"
+            >First Name*<input type="text" name="fname" pattern="[A-Za-z]{2,}" required
+          /></label>
+          <label class="top"
+            >Last Name*<input type="text" name="lname" pattern="[A-Za-z]{}" required
+          /></label>
+          <label class="top"
+            >Phone<input type="tel" name="phone" placeholder="1235551234"
+          /></label>
+          <label class="top"
+            >Email*<input
+              type="email"
+              name="email"
+              placeholder="username@email.com"
+  
+              required
+          /></label>
+          <label class="top"
+            >Zip Code<input
+              id="zip"
+              name="zip"
+              type="text"
+              maxlength="5"
+              size="6"
+              required
+          /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Garden Storm Details</legend>
+          <label class="top">
+            Storm Date<input type="date" name="complete"
+          /></label>
+          <label class="top"
+            >Storm Type
+            <input list="stormType" name="stormType" />
+            <datalist id="stormType">
+              <option value="Flash Flood"></option>
+              <option value="Hail"></option>
+              <option value="Hurricane"></option>
+              <option value="Thunderstorm"></option>
+              <option value="Tornado"></option>
+            </datalist>
+          </label>
+          <label class="flexly" for="rating"
+            >Storm Severity: &nbsp;&nbsp;&nbsp;
+            <input
+              type="range"
+              id="rating"
+              value="5"
+              min="1"
+              max="10"
+              step="1"
+              list="tickmarks"
+              oninput="adjustRating(this.value)"
+              onchange="adjustRating(this.value)"
+            />
+            <span id="ratingvalue">5</span>
+          </label>
+          <datalist id="tickmarks">
+            
+            <option value="1"> </option>
+            <option value="2"> </option>
+            <option value="3"> </option>
+            <option value="4"> </option>
+            <option value="5"> </option>
+            <option value="6"> </option>
+            <option value="7"> </option>
+            <option value="8"> </option>
+            <option value="9"> </option>
+            <option value="10"> </option>
+          </datalist>
+
+          <label class="top"
+            >Storm Region
+            <select name="region">
+              <option disabled >Select Region &#9662;</option>
+              <option value="preston">Preston</option>
+              <option value="sodasprings">Soda Springs</option>
+              <option value="fishhaven">Fish Haven</option>
+            </select>
+          </label>
+          <div>Are you in danger?</div>
+          <label class="sbs"
+            ><input type="radio" name="audience" value="yes" /> Yes</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="audience" value="maybe" /> Maybe</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="audience" value="no" /> No</label
+          >
+        </fieldset>
+        <fieldset>
+          <legend>Additional details</legend>
+          <label for="commentbox">Please leave your comment.</label>
+          <textarea name="commentbox" id="commentbox" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset class="noborder">
+        <input type="submit" value="Report Storm" class="submitBtn" />
+      </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p>
+        &copy;Weather Garden | Attributions | Sherri&nbsp;Walter<br />
+        <span id="currentDate"></span>
+      </p>
+    </footer>
+    <script src="../lesson-7/js/date.js"></script>
+   <script src="rating.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Playfair Display", "Poppins"]
+        }
+      });
+    </script>
+  </body>
+</html>

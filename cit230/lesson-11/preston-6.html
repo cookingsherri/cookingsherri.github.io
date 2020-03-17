@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Garden</title>
+    <meta
+      name="description"
+      content="Guide to year round gardening for every season."
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display%7cPoppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="weather-garden_favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <div id="banner">
+      <p>
+        Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+        park pavilion.
+      </p>
+    </div>
+    <header>
+      <img
+        src="../images/rsz_wind-energy-1293775_1280.png"
+        alt="Weather Garden Logo"
+      />
+      <section class="headings">
+        <h1>Weather Garden</h1>
+
+        <div id="motto">When, Where and What&nbsp;to&nbsp;Plant</div>
+      </section>
+    </header>
+
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham" href="#">&#9776;&nbsp;&nbsp;Main</a></li>
+        <li><a href="../lesson-9/index.html">Home</a></li>
+        <li><a href="preston-6.html" class="active">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="../lesson-8/stormcenter.html">Storm Center</a></li>
+        <li><a href="../lesson-7/gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="wrapper">
+        <picture>
+          <source srcset="../images/hero-garden-1000.jpg" media="(min-width:1000px)"/>
+          <source
+            srcset="../images/hero-garden-600.jpg"
+            media="(min-width: 600px)"
+/>
+          <img
+            src="../images/hero-garden-500.jpg"
+            alt="sunny garden with tools and boots"
+          />
+        </picture>
+        <div class="hero">
+          <h2>Weather Summary</h2>
+          <table>
+            <tr>
+              <td >Currently:</td>
+              <td id="current"></td>
+            </tr>
+            <tr>
+              <td>High:</td>
+              <td> <span id="highTemp"></span> °F</td>
+            </tr>
+            <tr>
+              <td>Wind Chill:</td>
+              <td> <span id="windChill"></span> °F</td>
+            </tr>
+            <tr>
+              <td >Humidity:</td>
+              <td id="humidity"></td>
+            </tr>
+            <tr>
+              <td>Wind Speed:</td>
+              <td> <span id="windSpeed"></span> mph</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="forecast">
+        <h3>5 Day Forecast</h3>
+        <div class="flex">
+          <div class="col">
+            <span id="day1" class="day"></span>
+             <img src="#" alt="" id="icon1"/>
+            <span class="data" id="forecast1">°</span>
+          </div>
+          <div class="col">
+            <span id="day2" class="day"></span>
+             <img src="#" alt="" id="icon2"/>
+            <span class="data" id="forecast2">°</span>
+          </div>
+          <div class="col">
+            <span id="day3" class="day"></span>
+             <img src="#" alt="" id="icon3" />
+            <span class="data" id="forecast3">°</span>
+          </div>
+          <div class="col">
+            <span id="day4" class="day"></span>
+             <img src="#" alt="" id="icon4"/>
+            <span class="data" id="forecast4">°</span>
+          </div>
+          <div class="col">
+            <span id="day5" class="day"></span>
+           <img src="#" alt="" id="icon5"/>
+            <span class="data" id="forecast5">°</span>
+          </div>
+        </div>
+      </div>
+      <article>
+        <img src="../images/rsz_flower-1633013_1280_1.jpg" alt="" />
+        <h3>Seasonal Gardening</h3>
+        <h4>by Susan Royall</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
+          placeat magnam sequi autem temporibus harum ab hic neque. Non, id
+          commodi! Aut numquam quasi molestiae, ad quod incidunt enim
+          accusantium. Provident, quos, exercitationem optio ex quae suscipit
+          vitae tempore numquam ab error tempora vero dolorem consequuntur modi.
+          Similique reprehenderit aut officiis vitae excepturi, at veniam
+          accusamus eum quod nisi dicta hic animi voluptatum corporis? Libero
+          iste aperiam maxime impedit sunt illum, pariatur quia ex tempore odit
+          officiis cumque similique nam inventore dolorem ipsum id provident
+          perferendis quisquam. Nostrum esse neque officia, voluptatibus harum
+          nulla illum modi minus tempora minima velit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil sint,
+          doloremque ullam quia quisquam at eos velit pariatur qui? Quisquam
+          labore eum pariatur aliquam maiores! Blanditiis, illum velit.
+          Reprehenderit est ex magni, minus neque optio itaque quos? Culpa
+          maiores excepturi nostrum amet dolor error quibusdam doloremque illum
+          nulla, eos veritatis fugit atque distinctio sapiente fuga architecto
+          accusantium enim optio perspiciatis aliquid ipsa libero necessitatibus
+          laudantium nesciunt. Ad asperiores accusantium aut, rerum illum
+          delectus doloribus nisi sapiente esse in nam mollitia distinctio.
+          Error excepturi perferendis perspiciatis, sequi pariatur aut totam
+          consequuntur laboriosam nostrum rem id voluptatibus, nemo quas fuga
+          doloribus maxime.
+        </p>
+      </article>
+      <div class="contact">
+        <img src="../images/map.png" alt="map of location" />
+        <address>
+          Weather Garden <br />
+          8032 Utah Ave <br />
+          Preston, ID 83263 <br />
+          Phone: 999-222-5555
+        </address>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy;Weather Garden | Attributions | Sherri&nbsp;Walter<br />
+        <span id="currentDate"></span>
+      </p>
+      <script src="js/date.js"></script>
+      <script src="js/bannerad.js"></script>
+      <script src="js/weather.js"></script>
+      <script src="js/forecast.js"></script>
+      
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Playfair Display", "Poppins"]
+        }
+      });
+    </script>
+  </body>
+</html>

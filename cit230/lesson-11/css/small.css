@@ -171,4 +171,130 @@ body {
     list-style: none;
     text-align: center;
   }
+  .center {
+    text-align: center;
+  }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 20px;
+    padding-top: 20px;
+    justify-content: center;
+  }
+  .ty {
+    text-align: center;
+    padding: 10px;
+  }
+  /*------------FORM------------*/
+  
+  form {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #63a633;
+    border-radius: 10px;
+    max-width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form legend {
+    color: #590232;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+  }
+  form label.top,
+  form div,
+  form label {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: 0.8rem;
+  }
+  form label.top input,
+  form label.top select,
+  form label input:not([type="radio"]),
+  form textarea {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  form label.sbs {
+    display: block;
+    padding: 0.75rem 0;
+    color: #555;
+  }
+  
+  form input.submitBtn {
+    border: none;
+    background-color: #590232;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+    
+  }
+  form label.top input:required {
+    border-left: #590232 solid 6px;
+  }
+  form label.top input:required:valid {
+    border-left: #63a633 solid 6px;
+  }
+  .flexly {
+    display: flex;
+    align-items: center;
+    max-width: 330px;
+  }
+  #ratingvalue {
+    margin: 0px 15px;
+  }
+  
+  .noborder {
+    border: none;
+  }
+  .white {
+    display: block;
+    background-color: white;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-gap: 10px;
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .cards section {
+    background-color: white;
+  
+  }
+  .cards h2 {
+    padding-bottom: 0;
+    margin: 0;
+  }
+  .cards h3 {
+    padding: 0;
+    margin: 0;
+  
+  }
+  .cards p {
+    margin: 0;
+  
+  }
+  .cards img {
+    max-width: 350px;
+  }
+  
   

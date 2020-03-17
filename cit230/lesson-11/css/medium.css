@@ -62,3 +62,20 @@
 	display: block;
 	padding: 0 5px 5px;
 }
+.cards img {
+	width: 100%;
+}
+
+.cards section {
+	
+	display: flex;
+	
+}
+.cards div {
+width: 50%;
+}
+.cards section:nth-child(2) {
+	flex-direction: row-reverse;
+}
+
+

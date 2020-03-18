@@ -55,11 +55,14 @@
     <main>
       <div class="wrapper">
         <picture>
-          <source srcset="images/hero-garden-1000.jpg" media="(min-width:1000px)"/>
+          <source
+            srcset="images/hero-garden-1000.jpg"
+            media="(min-width:1000px)"
+          />
           <source
             srcset="images/hero-garden-600.jpg"
             media="(min-width: 600px)"
-/>
+          />
           <img
             src="images/hero-garden-500.jpg"
             alt="sunny garden with tools and boots"
@@ -69,24 +72,24 @@
           <h2>Weather Summary</h2>
           <table>
             <tr>
-              <td >Currently:</td>
+              <td>Currently:</td>
               <td id="current"></td>
             </tr>
             <tr>
               <td>High:</td>
-              <td> <span id="highTemp"></span> °F</td>
+              <td><span id="highTemp"></span> °F</td>
             </tr>
             <tr>
               <td>Wind Chill:</td>
-              <td> <span id="windChill"></span> °F</td>
+              <td><span id="windChill"></span> °F</td>
             </tr>
             <tr>
-              <td >Humidity:</td>
+              <td>Humidity:</td>
               <td id="humidity"></td>
             </tr>
             <tr>
               <td>Wind Speed:</td>
-              <td> <span id="windSpeed"></span> mph</td>
+              <td><span id="windSpeed"></span> mph</td>
             </tr>
           </table>
         </div>
@@ -96,65 +99,65 @@
         <div class="flex">
           <div class="col">
             <span id="day1" class="day"></span>
-             <img src="#" alt="" id="icon1"/>
+            <img src="#" alt="" id="icon1" />
             <span class="data" id="forecast1">°</span>
           </div>
           <div class="col">
             <span id="day2" class="day"></span>
-             <img src="#" alt="" id="icon2"/>
+            <img src="#" alt="" id="icon2" />
             <span class="data" id="forecast2">°</span>
           </div>
           <div class="col">
             <span id="day3" class="day"></span>
-             <img src="#" alt="" id="icon3" />
+            <img src="#" alt="" id="icon3" />
             <span class="data" id="forecast3">°</span>
           </div>
           <div class="col">
             <span id="day4" class="day"></span>
-             <img src="#" alt="" id="icon4"/>
+            <img src="#" alt="" id="icon4" />
             <span class="data" id="forecast4">°</span>
           </div>
           <div class="col">
             <span id="day5" class="day"></span>
-           <img src="#" alt="" id="icon5"/>
+            <img src="#" alt="" id="icon5" />
             <span class="data" id="forecast5">°</span>
           </div>
         </div>
       </div>
-      <article>
+      <article class="seasonal-planting">
         <img src="images/rsz_flower-1633013_1280_1.jpg" alt="" />
         <h3>Seasonal Gardening</h3>
         <h4>by Susan Royall</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
-          placeat magnam sequi autem temporibus harum ab hic neque. Non, id
-          commodi! Aut numquam quasi molestiae, ad quod incidunt enim
-          accusantium. Provident, quos, exercitationem optio ex quae suscipit
-          vitae tempore numquam ab error tempora vero dolorem consequuntur modi.
-          Similique reprehenderit aut officiis vitae excepturi, at veniam
-          accusamus eum quod nisi dicta hic animi voluptatum corporis? Libero
-          iste aperiam maxime impedit sunt illum, pariatur quia ex tempore odit
-          officiis cumque similique nam inventore dolorem ipsum id provident
-          perferendis quisquam. Nostrum esse neque officia, voluptatibus harum
-          nulla illum modi minus tempora minima velit.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil sint,
-          doloremque ullam quia quisquam at eos velit pariatur qui? Quisquam
-          labore eum pariatur aliquam maiores! Blanditiis, illum velit.
-          Reprehenderit est ex magni, minus neque optio itaque quos? Culpa
-          maiores excepturi nostrum amet dolor error quibusdam doloremque illum
-          nulla, eos veritatis fugit atque distinctio sapiente fuga architecto
-          accusantium enim optio perspiciatis aliquid ipsa libero necessitatibus
-          laudantium nesciunt. Ad asperiores accusantium aut, rerum illum
-          delectus doloribus nisi sapiente esse in nam mollitia distinctio.
-          Error excepturi perferendis perspiciatis, sequi pariatur aut totam
-          consequuntur laboriosam nostrum rem id voluptatibus, nemo quas fuga
-          doloribus maxime.
-        </p>
+        <section>
+          <p>
+          Indoors or outdoors, there is always something to be done for the garden. Composting year round can provide a great resource for excellence soil come spring. Current recommendations for indoor planting in March are: 
+          </p>
+          <ul>
+            <li>Bell Peppers</li>
+            <li>Celery</li>
+            <li>Eggplants</li>
+          </ul>
+        </section>
+        <section>
+          <p>
+          April recommendations for indoor planting are:
+          </p>
+          <ul>
+            <li>Broccoli</li>
+            <li>Brussel Sprouts</li>
+            <li>Cabbage</li>
+            <li>Cauliflower</li>
+            <li>Lettuce</li>
+            <li>Swiss Chard</li>
+            <li>Tomatoes</li>
+          </ul>
+        </section>
+        <section>
+          <p>Outdoor planting is not recommended at this time.</p>
+        </section>
       </article>
       <div class="contact">
-        <img src="images/map.png" alt="map of location" />
+        <img class="map" src="images/map.png" alt="map of location" />
         <address>
           Weather Garden <br />
           8032 Utah Ave <br />
@@ -172,7 +175,6 @@
       <script src="js/bannerad.js"></script>
       <script src="js/weather.js"></script>
       <script src="js/forecast.js"></script>
-      
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>

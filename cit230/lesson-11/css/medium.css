@@ -62,6 +62,9 @@
 article {
 	background-color: white;
 }
+.map {
+	display: inline;
+}
 .cards img {
 	width: 100%;
 	

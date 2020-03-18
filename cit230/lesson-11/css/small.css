@@ -136,6 +136,9 @@ article img {
   /* float: right; */
   margin: 20px;
 }
+.map {
+  display: none;
+}
 .contact img {
   max-width: 300px;
 }
@@ -202,16 +205,35 @@ ul {
   padding-top: 20px;
   justify-content: center;
 }
+.gallery-grid p {
+  margin: 0;
+}
+.gallery-img {
+background-color: white;
+}
 .ty {
   text-align: center;
   padding: 10px;
 }
+.seasonal-planting ul li {
+  display: block;
+  text-align: left;
+}
+.seasonal-planting ul {
+  background-color: white;  
+}
+.seasonal-planting section {
+  text-align: left;
+}
+
+
 /*------------FORM------------*/
 
 form {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
 }
 form fieldset {
   margin: 2rem 0;
@@ -254,6 +276,7 @@ form label.sbs {
   display: block;
   padding: 0.75rem 0;
   color: #555;
+  text-align: left;
 }
 
 form input.submitBtn {
@@ -264,7 +287,6 @@ form input.submitBtn {
   padding: 0.75rem 1.5rem;
   width: 96%;
   max-width: 20rem;
-  
 }
 form label.top input:required {
   border-left: #590232 solid 6px;
@@ -274,7 +296,7 @@ form label.top input:required:valid {
 }
 .flexly {
   display: flex;
-  align-items: center;
+  align-items: left;
   max-width: 330px;
 }
 #ratingvalue {

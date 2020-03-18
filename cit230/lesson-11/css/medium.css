@@ -1,7 +1,6 @@
 @media only screen and (min-width: 32.5em) {
     main, footer{
         max-width: 950px;
-        margin: auto;
     }
 	.navigation {
 		display: flex;

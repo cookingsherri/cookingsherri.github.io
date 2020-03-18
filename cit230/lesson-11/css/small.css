@@ -32,9 +32,9 @@ nav {
   margin: 0;
 }
 ul {
-  display: block;
+  /* display: block; */
   background: #590232;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 ul li {
   display: inline-block;
@@ -119,9 +119,9 @@ ul {
 .hero h3 {
   margin: 0;
 }
-.forecast {
+/* .forecast {
   display: none;
-}
+} */
 .forecast h2, h3 {
   text-align: center;
   margin: 20px;
@@ -181,23 +181,20 @@ footer ul {
   text-align: center;
 }
 
-p,
+/* p,
 h1,
 h2,
 h3,
 h4,
 h5 {
   padding: 10px;
-}
+} */
 p {
   font-family: "Playfair Display", serif;
   margin: 15px 0;
   font-style: unset;
 }
-ul {
-  font-family: "Playfair Display", serif;
-  margin: 0;
-}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
@@ -254,7 +251,7 @@ form label {
   display: block;
   padding-top: 1rem;
   color: black;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 form label.top input,
 form label.top select,
@@ -308,11 +305,11 @@ form label.top input:required:valid {
 }
 .white {
   display: block;
-  background-color: white;
+  /* background-color: white; */
 }
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 1fr);
+  /* grid-template-columns: repeat(auto-fill, 1fr); */
   grid-gap: 10px;
   padding-top: 20px;
   justify-content: center;

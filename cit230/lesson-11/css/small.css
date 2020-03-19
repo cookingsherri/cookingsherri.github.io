@@ -19,6 +19,10 @@ header img {
   display: none;
   text-align: center;
 }
+.logo-link {
+  text-decoration: none;
+  color: black;
+}
 h1,
 h2,
 h3,
@@ -129,10 +133,12 @@ ul {
 article {
   padding: 5px 40px;
   border: #ffffff solid;
+  background-color: white;
+  margin-top: 20px;
 }
 
 article img {
-  /* float: right; */
+  float: right;
   margin: 20px;
 }
 .map {
@@ -208,6 +214,10 @@ background-color: white;
   text-align: center;
   padding: 10px;
 }
+/* .seasonal-planting {
+  margin-top: 20px;
+} */
+  
 .seasonal-planting ul li {
   display: block;
   text-align: left;
@@ -301,7 +311,7 @@ form label.top input:required:valid {
 }
 .white {
   display: block;
-  background-color: white;
+  /* background-color: white; */
 }
 .cards {
   display: grid;
@@ -358,4 +368,10 @@ footer ul {
   list-style: none;
   text-align: center;
   
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
 }

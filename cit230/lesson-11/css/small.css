@@ -127,8 +127,7 @@ ul {
   margin: 20px;
 }
 article {
-  margin-top: 70px;
-  padding: 40px;
+  padding: 5px 40px;
   border: #ffffff solid;
 }
 
@@ -143,7 +142,7 @@ article img {
   max-width: 300px;
 }
 
-header,
+/* header,
 footer {
   text-align: center;
   color: #0d0d0d;
@@ -155,7 +154,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .headings {
   display: flex;
   flex-direction: column;
@@ -173,12 +172,9 @@ header {
   max-width: 100%;
   position: relative;
 }
-footer ul {
-  list-style: none;
-  text-align: center;
-}
 .center {
   text-align: center;
+  margin-top: 0;
 }
 
 /* p,
@@ -305,7 +301,7 @@ form label.top input:required:valid {
 }
 .white {
   display: block;
-  /* background-color: white; */
+  background-color: white;
 }
 .cards {
   display: grid;
@@ -354,8 +350,12 @@ header {
   align-items: center;
   justify-content: center;
 }
-
+footer{
+  margin-left: auto;
+  margin-right: auto;
+}
 footer ul {
   list-style: none;
   text-align: center;
+  
 }

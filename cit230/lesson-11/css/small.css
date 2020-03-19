@@ -299,7 +299,7 @@ form label.top input:required:valid {
 }
 .flexly {
   display: flex;
-  align-items: left;
+  align-items: start;
   max-width: 330px;
 }
 #ratingvalue {

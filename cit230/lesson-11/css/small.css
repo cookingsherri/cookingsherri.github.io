@@ -130,6 +130,14 @@ ul {
   text-align: center;
   margin: 20px;
 }
+.upcomingevents h2{
+  background-color: #590232;
+  color: white;
+  margin: 0;
+}
+.upcomingevents p {
+  font-weight: 900;
+}
 article {
   padding: 5px 40px;
   border: #ffffff solid;
@@ -191,10 +199,13 @@ h4,
 h5 {
   padding: 10px;
 } */
-p {
+/* p {
   font-family: "Playfair Display", serif;
   margin: 15px 0;
   font-style: unset;
+} */
+p {
+  text-align: left;
 }
 
 .gallery-grid {
@@ -337,7 +348,7 @@ form label.top input:required:valid {
 }
 .cards p {
   margin: 0;
-
+  text-align: center;
 }
 .cards img {
   max-width: 350px;
@@ -349,7 +360,7 @@ form label.top input:required:valid {
 
 header,
 footer {
-  text-align: center;
+  /* text-align: center; */
   color: #0d0d0d;
   background-color: #63a633;
   padding: 10px 0;
@@ -363,8 +374,9 @@ header {
 footer{
   margin-left: auto;
   margin-right: auto;
+ 
 }
-footer ul {
+footer ul, footer p {
   list-style: none;
   text-align: center;
   

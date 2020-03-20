@@ -35,7 +35,7 @@
 	border-left: 1px solid #333;
 	background-color: #f2f2f2;
 	font-size: 13px;
-	text-align: center;
+	/* text-align: center; */
 }
 
 .flex div:last-child {

@@ -32,6 +32,9 @@ h5 {
   color: #0d0d0d;
   margin: 20px 0 0;
 }
+h4 {
+  margin: 0;
+}
 nav {
   margin: 0;
 }
@@ -231,15 +234,18 @@ background-color: white;
 /* .seasonal-planting {
   margin-top: 20px;
 } */
+.seasonal h3, h4 {
+  margin: 0px;
+}
   
-.seasonal-planting ul li {
+.seasonal ul li {
   display: block;
   text-align: left;
 }
-.seasonal-planting ul {
+.seasonal ul {
   background-color: white;  
 }
-.seasonal-planting section {
+.seasonal section {
   text-align: left;
 }
 

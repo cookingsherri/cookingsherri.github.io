@@ -8,7 +8,7 @@ main {
 
 header,
 footer {
-  /* text-align: center; */
+ 
   color: #0d0d0d;
   background-color: #63a633;
   padding: 10px 0;
@@ -35,35 +35,7 @@ footer a {
 footer a:hover {
   color: white;
 }
-header,
-footer {
-  /* text-align: center; */
-  color: #0d0d0d;
-  background-color: #63a633;
-  padding: 10px 0;
-  font-size: small;
-}
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-footer{
-  margin-left: auto;
-  margin-right: auto;
- 
-}
-/* footer ul, footer p {
-  list-style: none;
-  text-align: center;
-  
-} */
-footer a {
-  text-decoration: none;
-}
-footer a:hover {
-  color: white;
-}
+
 
 header img {
   max-width: 60px;
@@ -131,37 +103,11 @@ article {
   background-color: white;
   margin-top: 20px;
 }
-
 article img {
-  float: right;
-  margin: 20px;
+  width: 100%;
+  margin: auto;
 }
-/* p,
-h1,
-h2,
-h3,
-h4,
-h5 {
-  padding: 10px;
-} */
-/* p {
-  font-family: "Playfair Display", serif;
-  margin: 15px 0;
-  font-style: unset;
-} */
-/* header,
-footer {
-  text-align: center;
-  color: #0d0d0d;
-  background-color: #63a633;
-  padding: 10px 0;
-  font-size: small;
-}
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+
 /* --------------------------NAVIGATION---------------------- */
 nav {
   margin: 0;
@@ -210,17 +156,15 @@ ul li {
 }
 /* --------------------------INDEX---------------------- */
 .center {
-  /* text-align: center; */
   margin-top: 0;
 }
 .white {
   display: block;
-  /* background-color: white; */
+ 
 }
 /*------------INDEX CARDS------------*/
 .cards {
   display: grid;
-  /* grid-template-columns: repeat(auto-fill, 1fr); */
   grid-gap: 10px;
   padding-top: 20px;
   justify-content: center;
@@ -285,17 +229,7 @@ ul li {
 .seasonal section {
   text-align: left;
 }
-/* .seasonal-planting {
-  margin-top: 20px;
-} */
-/* section img {
-  max-width: 250px;
-  margin: 20px;
-} */
 
-/* .forecast {
-  display: none;
-} */
 /* --------------------------STORM CENTER/FORM---------------------- */
 p,
 .contact {
@@ -322,8 +256,6 @@ p,
 .contact img {
   max-width: 300px;
 }
-
-
 .headings {
   display: flex;
   flex-direction: column;
@@ -365,11 +297,9 @@ form label.top select,
 form label input:not([type="radio"]),
 form textarea {
   display: block;
-  /* font-size: 1rem; */
   border: solid 1px #999;
   border-radius: 4px;
   padding: 0.75rem;
-  /* color: #555; */
   width: 100%;
   max-width: 20rem;
   background-color: rgba(0, 0, 0, 0.1);
@@ -410,9 +340,6 @@ form label.top input:required:valid {
 .noborder {
   border: none;
 }
-
-
-
 /* --------------------------GALLERY--------------------- */
 
 .gallery-grid {

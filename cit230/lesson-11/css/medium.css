@@ -58,9 +58,7 @@
 	display: block;
 	padding: 0 5px 5px;
 }
-/* article {
-	background-color: white;
-} */
+
 .map {
 	display: inline;
 }
@@ -80,5 +78,9 @@ width: 50%;
 .cards section:nth-child(2) {
 	flex-direction: row-reverse;
 }
-
+article img {
+	float: right;
+	margin: 20px;
+	width: 50%;
+  }
 }

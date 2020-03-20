@@ -130,6 +130,9 @@ ul {
   text-align: center;
   margin: 20px;
 }
+.upcomingevents {
+  background-color: white;
+}
 .upcomingevents h2{
   background-color: #590232;
   color: white;

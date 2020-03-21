@@ -1,0 +1,57 @@
+
+body {
+    border-radius: 3px;
+    
+}
+img {
+    max-width: 100%;
+  }
+.card {
+    width: 320px;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 3px;
+    background-color: white;  
+    overflow: hidden;  
+    margin-right: auto;
+    margin-left: auto;   
+  }
+p, button, span {
+    font-family: Arial, Helvetica, sans-serif;
+  
+    }
+p {
+    text-align: center;
+  }
+button.viewButton {
+    border-radius: 3px 0 0 3px;
+    margin-left: 20px;
+    border-right: 0;
+  }
+button.editButton {
+    border-radius: 0 3px 3px 0;
+    
+  }
+  button, span {
+    color: #888;
+  }
+button {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  button, span {
+    font-size: .8em;
+  }
+  span {
+      padding: 5px;
+margin-right: 20px;
+  }
+  div {
+    display: flex;
+  }
+  footer {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+}
+  
+  

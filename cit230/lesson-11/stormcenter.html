@@ -57,7 +57,7 @@
         <fieldset>
           <legend>Weather Garden Reporter</legend>
           <label class="top"
-            >Full Name*<input type="text" name="fname" pattern="[A-Za-z]{5,}" required
+            >Full Name*<input type="text" name="fname" pattern="[A-Za-z]{}" minlength ="5" required
           /></label>
         
           <label class="top"
@@ -98,7 +98,7 @@
             </datalist>
           </label>
           <label class="flexly" for="rating"
-            >Storm Severity: &nbsp;&nbsp;&nbsp;
+            >Storm Severity <br>1-10 &nbsp;&nbsp;&nbsp;
             <input
               type="range"
               id="rating"

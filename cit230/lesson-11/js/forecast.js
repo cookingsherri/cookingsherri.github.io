@@ -5,7 +5,7 @@ fetch(forecast)
    
     
     let fiveDayForecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-    
+    let daysOfTheWeek = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
     for (let i=0; i<fiveDayForecast.length; i++) {
         document.getElementById(`forecast${i+1}`).textContent = fiveDayForecast[i].main.temp.toFixed(0) + " °F";
@@ -17,7 +17,7 @@ document.getElementById(`icon${i+1}`).setAttribute('src', imagesrc);
 document.getElementById(`icon${i+1}`).setAttribute('alt', desc);
 
 const dayOfWeek = new Date(fiveDayForecast[i].dt_txt);
-const daysOfTheWeek = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+
 document.getElementById(`day${i+1}`).textContent = daysOfTheWeek[dayOfWeek.getDay()];
     }
 });

@@ -5,7 +5,7 @@ fetch(papiURL)
 
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+       
         document.getElementById('current').textContent = jsObject.weather[0].description;
         document.getElementById('highTemp').textContent = jsObject.main.temp_max.toFixed(0);
         document.getElementById('humidity').textContent = jsObject.main.humidity;

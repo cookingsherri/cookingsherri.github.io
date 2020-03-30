@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Playfair+Display&display=swap');
+
+:root {
+  --primary-color: #F2F2F2;
+  --secondary-color: #A60303;
+  --accent1-color: #0D0D0D;
+  --accent2-color: #BF1534;
+  --heading-font: "IM Fell French Canon SC";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+}
+html {
+  background-color: var(--primary-color);
+}
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #A60303;
+}
+h2 {
+  font-weight: 600;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #A60303;
+  font-weight: 400;
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--accent2-color);
+  background-color: ;
+}
+header > h1 {
+  color: ;
+}
+.signature, p {
+  font-family: 'Montserrat', sans-serif;
+  color: var (--accent1-color);
+  padding: 1em;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td {
+  width: 25%;
+  height: 3em;
+}
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+  color: #F2F2F2;
+}
+.accent2 {
+  background-color: var(--accent2-color);
+}
+nav {
+  background-color:#0D0D0D;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  padding: 1em;
+  min-width: 70px;
+}
+nav a:link,
+nav a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #BF1534;
+  background-color: #F2F2F2;
+  border: 4px solid #0D0D0D;
+}

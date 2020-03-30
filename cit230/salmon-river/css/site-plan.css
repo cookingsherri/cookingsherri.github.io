@@ -50,6 +50,9 @@ header > h1 {
   color: var (--accent1-color);
   padding: 1em;
 }
+.colored {
+  color: #A60303;
+}
 .colors {
   width: 100%;
   min-width: 350px;

@@ -96,6 +96,13 @@ nav a:hover {
   font-weight: 200;
   
 }
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  text-decoration: underline;
+}
 footer {
   background-color: #73605A;
   text-align: center;

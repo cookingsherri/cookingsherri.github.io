@@ -1,12 +1,11 @@
 
-:root {
+/* :root {
   --primary-color: #F2F2F2;
   --secondary-color: #D9D5D2;
   --accent1-color: #73605A;
   --accent2-color: #545928;
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
-}
+  
+} */
 html {
   background-color: #D9D5D2;
   background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
@@ -39,16 +38,16 @@ header {
  
 }
 .primary {
-  background-color: var(--primary-color);
+  background-color: #F2F2F2;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #D9D5D2;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #73605A;
 }
 .accent2 {
-  background-color: var(--accent2-color);
+  background-color: #545928;
 }
 p {
     font-family: 'Courier Prime', monospace;
@@ -95,6 +94,9 @@ nav a:hover {
   color: #545928;
   font-weight: 200;
   
+}
+.active {
+  font-size: 1.25em;
 }
 footer a {
   text-decoration: none;

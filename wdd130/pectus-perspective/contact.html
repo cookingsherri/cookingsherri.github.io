@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pectus Perspective</title>
+    <meta
+      name="description"
+      content="My experience with Pectus Excavatum. I share what it was like for me to have the Nuss Surgery."
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Courier+Prime&EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/pectus-perspective.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/headshotsmall.jpg" alt="Headshot photo" />
+
+      <h1>Pectus Perspective</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">My Story</a></li>
+        <li><a href="info.html">Pectus Excavatum information</a></li>
+        <li><a href="contact.html" class="active">Contact me</a></li>
+      </ul>
+    </nav>
+    <h2 class="center">How Can I Help?</h2>
+    <form method="get" action="thanks.html">
+      <fieldset>
+        <legend>Tell me about yourself</legend>
+        <label class="top"
+          >Full Name*<input
+            type="text"
+            name="fname"
+            pattern="[A-Za-z]{}"
+            minlength="5"
+            required
+        /></label>
+
+        <label class="top"
+          >Phone<input type="tel" name="phone" placeholder="1235551234"
+        /></label>
+        <label class="top"
+          >Email*<input
+            type="email"
+            name="email"
+            placeholder="username@email.com"
+            required
+        />
+        
+    </label>
+    <label class="top">
+        Gender
+      <input list="gender" name="gender" />
+      <datalist id="gender">
+        <option value="Female"></option>
+        <option value="Male"></option>
+        <option value="Other"></option>
+      </datalist>
+    </label>
+      </fieldset>
+      <fieldset>
+        <div>Who are you seeking info for?</div>
+        <label class="sbs"
+          ><input type="radio" name="audience" value="myself" /> Myself</label
+        >
+        <label class="sbs"
+          ><input type="radio" name="audience" value="loved one" />A loved
+          one</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Additional details</legend>
+        <label for="commentbox">What else would you like me to know?</label>
+        <textarea
+          name="commentbox"
+          id="commentbox"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </fieldset>
+      <fieldset class="noborder">
+        <input type="submit" value="I want advice!" class="submitBtn" />
+      </fieldset>
+    </form>
+    <footer>
+      <p>
+        &copy; 2020 | Pectus Perspective |
+        <a href="site-plan.html">Site Plan</a>
+      </p>
+      <p id="currentDate">
+        Last Updated:
+        <script src="js/date.js"></script>
+      </p>
+    </footer>
+  </body>
+</html>

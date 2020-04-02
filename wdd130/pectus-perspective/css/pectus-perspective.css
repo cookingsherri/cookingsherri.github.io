@@ -6,6 +6,8 @@
   --accent2-color: #545928;
   
 } */
+/* --------------------MAIN------------------------ */
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime|EB+Garamond&display=swap');
 html {
   background-color: #D9D5D2;
   background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
@@ -28,8 +30,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'EB Garamond', serif;;
+  font-family: 'EB Garamond', serif;
   color: #011627;
+  font-weight: normal;
 }
 header {
   padding: 1em;
@@ -37,6 +40,38 @@ header {
   color: #011627;
  
 }
+
+/* -------------------------NAV------------------------- */
+nav {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Courier Prime', monospace;
+}
+nav ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+}
+nav a {
+  padding: 1em;
+  min-width: 70px;
+  display: block;
+}
+nav a:link,
+nav a:visited {
+  color: #011627;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #545928;
+  font-weight: 200;
+  
+}
+.active {
+  font-size: 1.25em;
+}
+/* -----------------------------SITE PLAN ----------------------- */
 .primary {
   background-color: #F2F2F2;
 }
@@ -68,36 +103,114 @@ p {
   width: 25%;
   height: 3em;
 }
+/* ---------------CONTACT FORM--------------------------- */
 
-nav {
-  text-align: center;
-  font-size: 1.2em;
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.contact img {
+  justify-content: flex-start;
+}
+.contact address {
+  margin: 10px;
+  align-self: center;
+  font-style: normal;
+}
+
+.map {
+  display: none;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.headings h1 {
+  margin-top: 0;
+}
+
+form {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #545928;
+  border-radius: 10px;
+  max-width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+}
+form legend {
+  color: #73605A;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
   font-family: 'Courier Prime', monospace;
 }
-nav ul {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 0;
-}
-nav a {
-  padding: 1em;
-  min-width: 70px;
+form label.top,
+form div,
+form label {
   display: block;
+  padding-top: 1rem;
+  color: black;
+  font-size: 1rem;
+  font-family: 'Courier Prime', monospace;
 }
-nav a:link,
-nav a:visited {
-  color: #011627;
-  text-decoration: none;
+form label.top input,
+form label.top select,
+form label input:not([type="radio"]),
+form textarea {
+  display: block;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
-nav a:hover {
-  color: #545928;
-  font-weight: 200;
-  
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #555;
+  text-align: left;
 }
-.active {
-  font-size: 1.25em;
+
+form input.submitBtn {
+  border: none;
+  background-color: #73605A;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  width: 96%;
+  max-width: 20rem;
 }
+form label.top input:required {
+  border-left: #73605A solid 6px;
+}
+form label.top input:required:valid {
+  border-left: #545928 solid 6px;
+}
+.flexly {
+  display: flex;
+  align-items: start;
+  max-width: 330px;
+}
+
+.noborder {
+  border: none;
+}
+.center {
+  text-align: center;
+}
+
+/* ----------FOOTER---------------------- */
 footer a {
   text-decoration: none;
   color: white;

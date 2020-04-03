@@ -225,7 +225,7 @@ form label.top input:required:valid {
 /* ----------FOOTER---------------------- */
 footer a {
   text-decoration: none;
-  color: white;
+  color: #545928;
 }
 footer a:hover {
   text-decoration: underline;

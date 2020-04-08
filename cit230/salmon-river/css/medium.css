@@ -1,0 +1,52 @@
+@media only screen and (min-width: 32.5em) {
+
+
+form fieldset{
+    max-width: 50%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #A60303;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation li {
+    display: flex; 
+    justify-content: center;
+   }
+.navigation a {
+    text-align: center;
+   
+}
+
+.navigation li:first-child {
+    display: none;
+}
+.logo-link {
+    display: none;
+}
+.responsiveLogo {
+    display: flex;
+    justify-items: center;
+    padding: 15px;
+}
+nav a:hover  {
+    text-transform: capitalize;
+   }
+.contact-bar {
+    display: none;
+
+}
+main, footer {
+    margin-left: 250px;
+    
+}
+}

@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif;
+font-family: 'Montserrat', sans-serif; */
+
+/* --primary-color: #F2F2F2;
+  --secondary-color: #A60303;
+  --accent1-color: #0D0D0D;
+  --accent2-color: #BF1534;
+  --heading-font: font-family: 'Playfair Display', serif;
+  --paragraph-font: font-family: 'Montserrat', sans-serif; */
+
+
+body {
+    background: white;
+  }
+  main {
+    
+    background: white;
+   
+  }
+  /*---------------HEADER, FOOTER----------------*/
+  
+  header,
+  footer {
+   
+    color: #A60303;
+    background-color: white;
+    padding: 10px 0;
+    font-size: small;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer{
+    
+   background-color: #A60303;
+   color: #f2f2f2;
+  }
+  footer ul, footer p {
+    list-style: none;
+    text-align: center;
+    
+  }
+  footer a {
+    text-decoration: none;
+    color:  #0D0D0D;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  header img {
+    max-width: 200px;
+    border-radius: 15px;
+    padding: 8px;
+    float: left;
+    background-color: #ffffff;
+  }
+  .logo-link {
+    text-decoration: none;
+    color: black;
+  }
+  #motto {
+    border: none;
+    font-size: 1.25em;
+    padding-left: 10px;
+  }
+  .headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .headings h1 {
+    margin-top: 0;
+  }
+  /* --------------------------INDEX/MAIN---------------------- */
+  picture img {
+    height: auto;
+    width: 100%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: 'Playfair Display', serif;
+    color: #A60303;
+    margin: 20px 0 0;
+  }
+  h4 {
+    margin: 0;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    padding: 10px;
+  }
+  p {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .contact-bar ul {
+    display: flex;
+    background-color: #A60303;
+    color: #f2f2f2;
+    justify-content: space-around;
+    padding-left: 0%;
+  }
+  .weather-bar {
+    display: block;
+    background-color: #A60303;
+    color: #f2f2f2;
+    padding-left: 30px;
+    padding-bottom: 10px;
+   
+  }
+  .weather-bar h2{
+    background-color: #A60303;
+    color: #f2f2f2;
+    margin-top: 0%;
+    display: block;
+    text-align: left;
+  }
+  .container {
+    position: relative;
+}
+.bookNow{
+  position: absolute;
+  bottom: 27px;
+  right: 110px;
+}
+
+
+.bookNow a {
+  text-decoration: none;
+  color: #f2f2f2;
+  background-color: #A60303;
+  border-radius: 30px;
+  padding: 20px 36px;
+  font-family: 'Playfair Display', serif;
+}
+
+  
+  /* --------------------------NAVIGATION---------------------- */
+  nav {
+    margin: 0;
+  }
+  ul {
+    /* display: block; */
+    background: #A60303;
+    /* margin-top: 20px; */
+  }
+  ul {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+  }
+  ul li {
+    display: inline-block;
+  }
+  .navigation a,
+  .navigation a:visited, .contact-bar a{
+    color: #f2f2f2;
+    text-decoration: none;
+    
+  }
+  .navigation, .contact-bar {
+    list-style: none;
+    padding: 0;
+    
+  }
+  .navigation li:first-child {
+    display: block;
+  }
+  .navigation li{
+    display: none;
+  }
+  .navigation a, .contact-bar a {
+    display: block;
+    padding: 0.75rem;
+  }
+  .navigation a:hover, .contact-bar a:hover {
+   text-transform: capitalize;
+  }
+  .active {
+    border: #f2f2f2 solid 1px;
+    border-radius: 15px;
+  }
+  .responsive,
+  .responsive li {
+    display: block;
+  }
+  .responsiveLogo {
+    display: none;
+  }
+  
+ /* --------------------------CONTACT--------------------------------- */
+ p,
+.contact {
+  font-family: "Playfair Display", serif;
+  margin: 15px 0;
+  font-style: unset;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.contact img {
+  justify-content: flex-start;
+}
+.contact address {
+  margin: 10px;
+  align-self: center;
+  font-style: normal;
+}
+
+.map {
+  display: none;
+}
+.contact img {
+  max-width: 300px;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.headings h1 {
+  margin-top: 0;
+}
+
+form {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #0D0D0D;
+  border-radius: 10px;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+form legend {
+  color: #A60303;;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+form label.top,
+form div,
+form label {
+  display: block;
+  padding-top: 1rem;
+  color: black;
+  font-size: 1rem;
+}
+form label.top input,
+form label.top select,
+form label input:not([type="radio"]),
+form textarea {
+  display: block;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #555;
+  text-align: left;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #A60303;;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  width: 96%;
+  max-width: 20rem;
+}
+form label.top input:required {
+  border-left: #A60303 solid 6px;
+}
+form label.top input:required:valid {
+  border-left: #0D0D0D solid 6px;
+}
+.flexly {
+  display: flex;
+  align-items: start;
+  max-width: 330px;
+}
+#ratingvalue {
+  margin: 0px 15px;
+}
+.center{
+  text-align: center;
+}
+.noborder {
+  border: none;
+}
+ .map {
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+ }
+ .map address {
+   align-self: center;
+   margin: 20px;
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal; 
+   line-height: 1.25em;
+   font-size: 1.1em;
+ }
+  /* -----------------------RESERVATION--------------------------- */
+  
+  .plans {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 10px 10px 30px 2px #0d0d0d;
+    margin-top: 20px;
+}
+.plans table, .plans th, .plans td, .plans thead{
+  font-family: 'Playfair Display', serif;;
+border: 1px solid darkgray;
+border-collapse: collapse;
+}
+
+.plans caption {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+   
+}
+.plans caption, .plans tfoot td {
+    background-color: #f2f2f2;
+    color: #A60303;
+    }
+    .plans tfoot td {
+        padding: 5px;
+        font-size: 75%;
+    }
+    .plans th{
+        background-color:  #A60303;
+        color: white;
+    }
+    .plans th, .plans td {
+            padding: 10px;
+    }
+    .plans tr {
+        background-color:  #f2f2f2
+        }
+    
+    
+  
+  
+  

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Salmon River</title>
+    <meta
+      name="description"
+      content="River Rafting expeditions in Riggins, Idaho are the perfect expeditions for friends, college students, business groups, clubs and families. Experience adventure, the outdoors, and learn by doing new things."
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800%7cPlayfair+Display:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/salmon-river.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo-link">
+          <img src="images/riverexpeditions.png" alt="Salmon River Logo" />
+        <div class="headings">
+          <h1>Salmon River Expeditions</h1>
+
+          <div id="motto">Better Than The Best!</div>
+        </div>
+      </a>
+    </header>
+
+    <nav>
+        <img src="images/riverexpeditions.png" alt="Salmon River Logo" class="responsiveLogo"/>
+      <ul class="navigation">
+        <li><a class="ham" href="#">&#9776;&nbsp;&nbsp;Main</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="meet-guides.html">Meet Our Guides</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="reservation.html" class="active">Reserve Now</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="container">
+        <picture>
+          <source
+            srcset="images/one-red-helmet-1200.jpg"
+            media="(min-width:1000px)"
+          />
+          <source
+            srcset="images/one-red-helmet-1000.jpg"
+            media="(min-width: 600px)"
+          />
+          <img
+            src="images/one-red-helmet800.jpg"
+            alt="Four men river rafting in rapids"
+          />
+        </picture>
+       
+      </div>
+
+      <div class="contact-bar">
+        <ul>
+          <li><a href="#">Call</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="reservation.html">Reserve</a></li>
+        </ul>
+      </div>
+      <picture>
+        <source
+          srcset="images/raised-oar-1200.jpg"
+          media="(min-width:1000px)"
+        />
+        <source
+          srcset="images/raised-oar-1000.jpg"
+          media="(min-width: 600px)"
+        />
+        <img src="images/raised-oar-800.jpg" alt="River rafting adventure" />
+      </picture>
+      <div class="contact-bar">
+          <ul>
+            <li><a href="#">Book Now</a></li>
+          </ul>
+        </div>
+      <picture>
+        <source srcset="images/red-raft-1200.jpg" media="(min-width:1000px)" />
+        <source srcset="images/red-raft-1000.jpg" media="(min-width: 600px)" />
+        <img
+          src="images/red-raft-800.jpg"
+          alt="Red raft full of people enjoying rafting adventure"
+        />
+      </picture>
+    </main>
+    <footer>
+      <div class="weather-bar">
+        <h2>Today's Weather:</h2>
+        <table>
+          <tr>
+            <td>Currently:</td>
+            <td id="current"></td>
+          </tr>
+          <tr>
+            <td>High:</td>
+            <td><span id="highTemp"></span> °F</td>
+          </tr>
+          <tr>
+            <td>Wind Chill:</td>
+            <td><span id="windChill"></span></td>
+          </tr>
+          <tr>
+            <td>Humidity:</td>
+            <td id="humidity"></td>
+          </tr>
+          <tr>
+            <td>Wind Speed:</td>
+            <td><span id="windSpeed"></span> mph</td>
+          </tr>
+        </table>
+      </div>
+      <p>
+        &copy; Salmon River | Weather Data Provided by
+        <a href="https://openweathermap.org/">Open Weather</a> |
+        <a href="salmon-river-rafting-site-plan.pdf">Site Plan </a> |
+        Sherri&nbsp;Walter<br />
+        <span id="currentDate"></span>
+      </p>
+    </footer>
+    <script src="js/weather.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/ham.js"></script>
+  </body>
+</html>

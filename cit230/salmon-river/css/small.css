@@ -45,10 +45,10 @@ body {
   }
   footer a {
     text-decoration: none;
-    color:  #0D0D0D;
+    color:  #f2f2f2;
   }
   footer a:hover {
-    text-decoration: underline;
+    font-size: 1.25em;
   }
   
   
@@ -151,6 +151,7 @@ body {
   color: #f2f2f2;
   padding: 20px;
   border-radius: 15px;
+  text-decoration: none;
  
 }
 .experience {
@@ -165,8 +166,8 @@ body {
 .experience p {
   display: none;
 }
-.experience a{
-  display: none;
+.button:hover {
+  font-size: 1.5em;
 }
 
   

@@ -1,0 +1,30 @@
+{
+"guides": [
+{
+    "firstName": "Charle",
+    "image": "images/charlie.jpg",
+    "certification": "State Certified",
+    "experience": "12 years",
+    "email": "kyra@salmonriverguide.com",
+    "biography": "Charlie is studying geology. He spends most of his time outdoors and is our senior guide. He runs our training program for new guides. You can trust our guides because they have had the best traiing."
+},
+{
+    "firstName": "Kyra",
+    "image": "images/kyra.jpg",
+    "certification": "State Certified",
+    "experience": "7 years",
+    "email": "kyra@salmonriverguide.com",
+    "biography": "A dog lover at heart, Kyra is studying veterinary medicine. She began river rafting with her family at a young age. Kyra loves introducing youth to wonders of Salmon River."
+
+},
+{
+    "firstName": "Bryson",
+    "image": "images/bryson.jpg",
+    "certification": "State Certified",
+    "experience": "5 years",
+    "email": "bryson@salmonriverguide.com",
+    "biography": "Bryson was first introduced to river rafting by his grandmother. She instilled in him a love of the outdoors. After their first trip, he knew he would be a guide."
+
+}
+]
+}

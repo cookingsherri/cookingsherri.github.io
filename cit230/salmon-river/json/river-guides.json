@@ -2,7 +2,7 @@
 "guides": [
 {
     "firstName": "Charlie",
-    "image": "/images/charlie.jpg",
+    "image": "charlie.jpg",
     "certification": "State Certified",
     "experience": "12 years",
     "email": "charlie@salmonriverguide.com",
@@ -10,7 +10,7 @@
 },
 {
     "firstName": "Kyra",
-    "image": "images/kyra.jpg",
+    "image": "kyra.jpg",
     "certification": "State Certified",
     "experience": "7 years",
     "email": "kyra@salmonriverguide.com",
@@ -19,7 +19,7 @@
 },
 {
     "firstName": "Bryson",
-    "image": "images/bryson.jpg",
+    "image": "bryson.jpg",
     "certification": "State Certified",
     "experience": "5 years",
     "email": "bryson@salmonriverguide.com",

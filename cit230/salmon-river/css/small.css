@@ -1,13 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Playfair+Display&display=swap");
-/* font-family: 'Playfair Display', serif;
-font-family: 'Montserrat', sans-serif; */
-
-/* --primary-color: #F2F2F2;
-  --secondary-color: #A60303;
-  --accent1-color: #0D0D0D;
-  --accent2-color: #BF1534;
-  --heading-font: font-family: 'Playfair Display', serif;
-  --paragraph-font: font-family: 'Montserrat', sans-serif; */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600%7cPlayfair+Display&display=swap");
 
 body {
   background: white;
@@ -216,31 +207,13 @@ ul li {
 }
 
 /* --------------------------CONTACT--------------------------------- */
-p,
-.contact {
-  font-family: "Playfair Display", serif;
-  margin: 15px 0;
-  font-style: unset;
-}
-.contact {
-  display: flex;
-  justify-content: center;
-}
-.contact img {
-  justify-content: flex-start;
-}
-.contact address {
-  margin: 10px;
-  align-self: center;
-  font-style: normal;
-}
+
+
 
 .map {
   display: none;
 }
-.contact img {
-  max-width: 300px;
-}
+
 .headings {
   display: flex;
   flex-direction: column;

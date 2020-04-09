@@ -1,12 +1,12 @@
 {
 "guides": [
 {
-    "firstName": "Charle",
-    "image": "images/charlie.jpg",
+    "firstName": "Charlie",
+    "image": "/images/charlie.jpg",
     "certification": "State Certified",
     "experience": "12 years",
-    "email": "kyra@salmonriverguide.com",
-    "biography": "Charlie is studying geology. He spends most of his time outdoors and is our senior guide. He runs our training program for new guides. You can trust our guides because they have had the best traiing."
+    "email": "charlie@salmonriverguide.com",
+    "biography": "Charlie is studying geology. He spends most of his time outdoors and is our senior guide. He runs our training program for new guides. You can trust our guides because they have had the best training from Charlie."
 },
 {
     "firstName": "Kyra",

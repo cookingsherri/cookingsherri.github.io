@@ -33,9 +33,13 @@
         </div>
       </a>
     </header>
-    
+
     <nav>
-        <img src="images/riverexpeditions.png" alt="Salmon River Logo" class="responsiveLogo"/>
+      <img
+        src="images/riverexpeditions.png"
+        alt="Salmon River Logo"
+        class="responsiveLogo"
+      />
       <ul class="navigation">
         <li><a class="ham" href="#">&#9776;&nbsp;&nbsp;Main</a></li>
         <li><a href="index.html">Home</a></li>
@@ -46,139 +50,148 @@
     </nav>
 
     <main>
-        <table class="plans">
-            <caption>Adventure Plans</caption>
-            <tr>
-              <th>Adventure</th>
-              <th>Length</th>
-              <th>Skill Level</th>
-              <th>Cost per person</th>
-            </tr>
-            <tr>
-              <td>River Rafting</td>
-              <td>Full Day</td>
-              <td>Class I, II, II Rapids</td>
-              <td>$99</td>
-            </tr>
-            <tr>
-              <td>River Rafting</td>
-              <td>Half Day</td>
-              <td>Class I and II Rapids</td>
-              <td>$52</td>
-            </tr>
-            <tr>
-              <td>River Rafting</td>
-              <td>Half Day</td>
-              <td>Class IV and V Rapids</td>
-              <td>$67</td>
-            </tr>
-           
-          </table>
-            <h2 class="center">Booking Request</h2>
-            <form method="get" action="thanks.html">
-              <fieldset>
-                <legend>Personal Information</legend>
-                <label class="top"
-                  >Full Name*<input type="text" name="fname" pattern="[A-Za-z]{}" minlength ="5" required
-                /></label>
-              
-                <label class="top"
-                  >Phone<input type="tel" name="phone" placeholder="1235551234"
-                /></label>
-                <label class="top"
-                  >Email*<input
-                    type="email"
-                    name="email"
-                    placeholder="username@email.com"
-        
-                    required
-                /></label>
-                <label class="top"
-                  >Zip Code<input
-                    id="zip"
-                    name="zip"
-                    type="text"
-                    maxlength="5"
-                    size="6"
-                    required
-                /></label>
+      <table class="plans">
+        <caption>
+          Adventure Plans
+        </caption>
+        <tr>
+          <th>Adventure</th>
+          <th>Length</th>
+          <th>Skill Level</th>
+          <th>Cost per person</th>
+        </tr>
+        <tr>
+          <td>River Rafting</td>
+          <td>Full Day</td>
+          <td>Class I, II, II Rapids</td>
+          <td>$99</td>
+        </tr>
+        <tr>
+          <td>River Rafting</td>
+          <td>Half Day</td>
+          <td>Class I and II Rapids</td>
+          <td>$52</td>
+        </tr>
+        <tr>
+          <td>River Rafting</td>
+          <td>Half Day</td>
+          <td>Class IV and V Rapids</td>
+          <td>$67</td>
+        </tr>
+      </table>
 
-              </fieldset>
-              <fieldset>
-                <legend>Requested Trip Information</legend>
-                
-                <label class="top">
-                  Date Requested<input type="date" name="complete"
-                /></label>
-                <label class="top"
-                  >Adventure type
-                  <input list="adventureType" name="adventureType" />
-                  <datalist id="adventureType">
-                    <option value="River Rafting"></option>
-                    <option value="Tubing"></option>
-                    <option value="Kayaking"></option>
-                    <option value="Zip Line"></option>
-                    <option value="Ropes Course"></option>
-                  </datalist>
-                </label>
-                <label class="flexly" for="rating"
-                  >Adventure Comfort Level<br>1-10 &nbsp;&nbsp;&nbsp;
-                  <input
-                    type="range"
-                    id="rating"
-                    value="5"
-                    min="1"
-                    max="10"
-                    step="1"
-                    list="tickmarks"
-                    oninput="adjustRating(this.value)"
-                    onchange="adjustRating(this.value)"
-                  />
-                  <span id="ratingvalue">5</span>
-                </label>
-                <datalist id="tickmarks">
-                  
-                  <option value="1"> </option>
-                  <option value="2"> </option>
-                  <option value="3"> </option>
-                  <option value="4"> </option>
-                  <option value="5"> </option>
-                  <option value="6"> </option>
-                  <option value="7"> </option>
-                  <option value="8"> </option>
-                  <option value="9"> </option>
-                  <option value="10"> </option>
-                </datalist>
-      
-               
-                <div>What type of group are you?</div>
-                <label class="sbs"
-                  ><input type="radio" name="audience" value="business" /> Business Group</label
-                >
-                <label class="sbs"
-                  ><input type="radio" name="audience" value="family" /> Family Group</label
-                >
-                <label class="sbs"
-                  ><input type="radio" name="audience" value="friends" /> Friends</label
-                >
-                <label class="sbs"
-                  ><input type="radio" name="audience" value="individual" /> Individual</label
-                >
-                
-              </fieldset>
-              <fieldset>
-                <legend>Additional details</legend>
-                <label for="commentbox">Anything Else We Should Know?</label>
-                <textarea name="commentbox" id="commentbox" cols="30" rows="10"></textarea>
-              </fieldset>
-              <fieldset class="noborder">
-              <input type="submit" value="Request Booking" class="submitBtn" />
-            </fieldset>
-            </form>
-            
-</main>
+      <h2 class="center">Booking Request</h2>
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label class="top"
+            >Full Name*<input
+              type="text"
+              name="fname"
+              pattern="[A-Za-z]{}"
+              minlength="5"
+              required
+          /></label>
+
+          <label class="top"
+            >Phone<input type="tel" name="phone" placeholder="1235551234"
+          /></label>
+          <label class="top"
+            >Email*<input
+              type="email"
+              name="email"
+              placeholder="username@email.com"
+              required
+          /></label>
+          <label class="top"
+            >Zip Code<input
+              id="zip"
+              name="zip"
+              type="text"
+              maxlength="5"
+              size="6"
+              required
+          /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Requested Trip Information</legend>
+
+          <label class="top">
+            Date Requested<input type="date" name="complete"
+          /></label>
+          <label class="top"
+            >Adventure type
+            <input list="adventureType" name="adventureType" />
+            <datalist id="adventureType">
+              <option value="River Rafting"></option>
+              <option value="Tubing"></option>
+              <option value="Kayaking"></option>
+              <option value="Zip Line"></option>
+              <option value="Ropes Course"></option>
+            </datalist>
+          </label>
+          <label class="flexly" for="rating"
+            >Adventure Comfort Level<br />1-10 &nbsp;&nbsp;&nbsp;
+            <input
+              type="range"
+              id="rating"
+              value="5"
+              min="1"
+              max="10"
+              step="1"
+              list="tickmarks"
+              oninput="adjustRating(this.value)"
+              onchange="adjustRating(this.value)"
+            />
+            <span id="ratingvalue">5</span>
+          </label>
+          <datalist id="tickmarks">
+            <option value="1"> </option>
+            <option value="2"> </option>
+            <option value="3"> </option>
+            <option value="4"> </option>
+            <option value="5"> </option>
+            <option value="6"> </option>
+            <option value="7"> </option>
+            <option value="8"> </option>
+            <option value="9"> </option>
+            <option value="10"> </option>
+          </datalist>
+
+          <div>What type of group are you?</div>
+          <label class="sbs"
+            ><input type="radio" name="audience" value="business" /> Business
+            Group</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="audience" value="family" /> Family
+            Group</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="audience" value="friends" />
+            Friends</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="audience" value="individual" />
+            Individual</label
+          >
+        </fieldset>
+        <fieldset>
+          <legend>Additional details</legend>
+          <label for="commentbox">Anything Else We Should Know?</label>
+          <textarea
+            name="commentbox"
+            id="commentbox"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </fieldset>
+        <fieldset class="noborder">
+          <input type="submit" value="Request Booking" class="submitBtn" />
+        </fieldset>
+      </form>
+    </main>
     <footer>
-    
       <p>
         &copy; Salmon River | Weather Data Provided by
         <a href="https://openweathermap.org/">Open Weather</a> |

@@ -31,12 +31,12 @@ fetch(requestURL)
           image.setAttribute('src', "images/" + guides.image);
           image.setAttribute('alt',  "Photo of " + guides.firstName);
 
+          div2.appendChild(image);
           div.appendChild(firstName);
           div.appendChild(certification);
           div.appendChild(biography);
           div.appendChild(email);
           card.appendChild(div);
-          div2.appendChild(image);
           card.appendChild(div2);
             
 

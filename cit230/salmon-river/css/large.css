@@ -1,33 +1,37 @@
-@media only screen and (min-width: 60em){
-    form fieldset{
-        max-width: 33%;
-    }  
-    .experience {
-        position: relative;
-      }
-      
-      .experience h2 {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-      }
-      .experience p {
-          display: block;
-        position: absolute;
-        right: 10px;
-        bottom: 70px;
-        left: 10px;
-        padding: 10px;
-      }
-      .experience a{
-          display: block;
-        position: absolute;
-        right: 10px;
-        bottom: 10px;
-      }
-     .experience h2, .experience p {
-         background-color: rgba(242, 242, 242, .5);
-         border-radius: 15px;
+@media only screen and (min-width: 60em) {
+  form fieldset {
+    max-width: 33%;
+  }
+  .experience {
+    position: relative;
+  }
 
-     }
+  .experience h2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .experience p {
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 70px;
+    left: 10px;
+    padding: 10px;
+  }
+  .experience a {
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  .experience h2,
+  .experience p {
+    background-color: rgba(242, 242, 242, 0.5);
+    border-radius: 15px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

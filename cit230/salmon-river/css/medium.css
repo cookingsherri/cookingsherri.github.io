@@ -1,75 +1,71 @@
 @media only screen and (min-width: 32.5em) {
-
-
-form fieldset{
+  form fieldset {
     max-width: 50%;
-}
-header {
+  }
+  header {
     padding: 0;
-}
-nav {
+  }
+  nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 250px;
     height: 100%;
-    background-color: #A60303;
+    background-color: #a60303;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.navigation li {
-    display: flex; 
+  .navigation li {
+    display: flex;
     justify-content: center;
-   }
-.navigation a {
+  }
+  .navigation a {
     text-align: center;
-   
-}
+  }
 
-.navigation li:first-child {
+  .navigation li:first-child {
     display: none;
-}
-.logo-link {
+  }
+  .logo-link {
     display: none;
-}
-.responsiveLogo {
+  }
+  .responsiveLogo {
     display: flex;
     justify-items: center;
     padding: 15px;
-}
-nav a:hover  {
+  }
+  nav a:hover {
     text-transform: capitalize;
-   }
-.contact-bar {
+  }
+  .contact-bar {
     display: none;
-
-}
-.experience {
+  }
+  .experience {
     position: relative;
   }
-  
+
   .experience h2 {
     position: absolute;
     top: 10px;
     left: 10px;
   }
   .experience p {
-      display: block;
+    display: block;
     position: absolute;
     right: 10px;
     bottom: -10px;
   }
-  .experience a{
-      display: block;
+  .experience a {
+    display: block;
     position: absolute;
     right: 10px;
     bottom: 120px;
   }
-main, footer {
+  main,
+  footer {
     margin-left: 250px;
-    
-}
+  }
 }

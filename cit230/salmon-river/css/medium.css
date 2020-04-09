@@ -4,7 +4,9 @@
 form fieldset{
     max-width: 50%;
 }
-
+header {
+    padding: 0;
+}
 nav {
     position: fixed;
     top: 0;
@@ -45,6 +47,27 @@ nav a:hover  {
     display: none;
 
 }
+.experience {
+    position: relative;
+  }
+  
+  .experience h2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .experience p {
+      display: block;
+    position: absolute;
+    right: 10px;
+    bottom: -10px;
+  }
+  .experience a{
+      display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 120px;
+  }
 main, footer {
     margin-left: 250px;
     

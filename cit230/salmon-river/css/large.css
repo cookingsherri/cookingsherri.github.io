@@ -1,5 +1,26 @@
 @media only screen and (min-width: 60em){
     form fieldset{
-        max-width: 25%;
+        max-width: 33%;
     }  
+    .experience {
+        position: relative;
+      }
+      
+      .experience h2 {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      .experience p {
+          display: block;
+        position: absolute;
+        right: 10px;
+        bottom: 70px;
+      }
+      .experience a{
+          display: block;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+      }
 }

@@ -146,6 +146,28 @@ body {
   padding: 20px 36px;
   font-family: 'Playfair Display', serif;
 }
+.button {
+  background-color: #A60303;
+  color: #f2f2f2;
+  padding: 20px;
+  border-radius: 15px;
+ 
+}
+.experience {
+  position: relative;
+}
+
+.experience h2 {
+  position: absolute;
+  top: -24px;
+  left: 10px;
+}
+.experience p {
+  display: none;
+}
+.experience a{
+  display: none;
+}
 
   
   /* --------------------------NAVIGATION---------------------- */
@@ -153,9 +175,9 @@ body {
     margin: 0;
   }
   ul {
-    /* display: block; */
+    
     background: #A60303;
-    /* margin-top: 20px; */
+    
   }
   ul {
     font-family: "Playfair Display", serif;
@@ -165,7 +187,7 @@ body {
     display: inline-block;
   }
   .navigation a,
-  .navigation a:visited, .contact-bar a{
+  .navigation a:visited, .contact-bar a, .button a {
     color: #f2f2f2;
     text-decoration: none;
     
@@ -185,8 +207,8 @@ body {
     display: block;
     padding: 0.75rem;
   }
-  .navigation a:hover, .contact-bar a:hover {
-   text-transform: capitalize;
+  .navigation a:hover, .contact-bar a:hover, .button a:hover {
+   font-size: 1.5em;
   }
   .active {
     border: #f2f2f2 solid 1px;
@@ -245,7 +267,7 @@ form fieldset {
   margin: 2rem 0;
   border: 1px solid #0D0D0D;
   border-radius: 10px;
-  max-width: 75%;
+  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
 }

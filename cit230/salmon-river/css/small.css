@@ -151,6 +151,9 @@ p {
 .button:hover {
   font-size: 1.5em;
 }
+.experience h2, .experience p, .experience a {
+  display: none;
+}
 
 /* --------------------------NAVIGATION---------------------- */
 nav {
